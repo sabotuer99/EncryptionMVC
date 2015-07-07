@@ -8,6 +8,9 @@ using System.Web;
 
 namespace Encryption
 {
+    //Lifted, verbatim, straight from Mud's answer on Stack Overflow
+    //Zero creative credit goes to me on this one lol
+    //http://stackoverflow.com/questions/165808/simple-two-way-encryption-for-c-sharp/212707#5518092
     public class SimplerAES
     {
         private static byte[] key = { 123, 217, 19, 11, 24, 26, 85, 45, 114, 184, 27, 162, 37, 112, 222, 209, 241, 24, 175, 144, 173, 53, 196, 29, 24, 26, 17, 218, 131, 236, 53, 209 };
